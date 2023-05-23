@@ -11,3 +11,4 @@ def newDeploy(jobname,ipaddres,contest)
    sh "scp /var/lib/jenkins/workspace/${jobname}/webapp/target/webapp.war ubuntu@${ipaddress}:/var/lib/tomcat9/webapps/${contest}.war"
 }
 
+
