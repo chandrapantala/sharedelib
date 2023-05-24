@@ -1,6 +1,6 @@
 def newgit(repo)
 {
-  git "https://github.com/intelliqittrainings/${repo}.git"
+  git "${repo}"
 }
 def newMaven()
 {
