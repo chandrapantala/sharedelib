@@ -1,8 +1,8 @@
-def Newgit
+def Newgit(repo)
 {
-  git 'https://github.com/intelliqittrainings/maven.git'
+  git 'https://github.com/intelliqittrainings/${repo}.git'
 }
-def Maven
+def Maven()
 {
   sh 'mvn package'
 }
