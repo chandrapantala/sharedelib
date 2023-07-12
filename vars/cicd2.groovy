@@ -12,7 +12,7 @@ def Deploy()
 }
 def test(job)
 {
-  sh 'java -jar /var/lib/jenkins/workspace/${job}/webapp/target/webapp.war'
+  sh 'java -jar /var/lib/jenkins/workspace/${job}/testing.war'
 }
 
 
