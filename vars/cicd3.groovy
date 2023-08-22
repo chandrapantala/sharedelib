@@ -17,3 +17,4 @@ def newtest(workspace)
 def newDepv()
 {
   deploy adapters: [tomcat9(credentialsId: '66b4205e-de87-47af-bf21-0bbff285218f', path: '', url: 'http://172.31.33.19:8080')], contextPath: 'proda', war: '**/*.war'
+}
